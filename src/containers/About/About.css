@@ -42,6 +42,8 @@
 @media screen and (max-width: 768px) {
   .app__about-img {
     width: 80%;
+    margin-top: 7px;
+
   }
 }
 
@@ -50,6 +52,8 @@
     width: 150px;
     height: 150px;
   }
+
+ 
 }
 
 .app__about-data {
@@ -70,11 +74,14 @@
   font-size: 1rem;
   font-family: var(--font-base);
 }
-.app__about-data .p-text{
+
+.app__about-data .p-text {
   color: rgb(40, 40, 40);
   font-weight: 500;
+  width: 100%;
 
 }
+
 .app__about-data p span {
   font-weight: 800;
   color: var(--secondary-color);
@@ -112,7 +119,30 @@
   object-fit: cover;
   border-radius: 15px;
 }
+@media screen and (max-width: 768px) {
+  .app__about-img {
+    width: 80%;
+    margin-top: 7px;
 
+  }
+  .app__profile-item {
+    width: 270px;
+    
+  }
+  .app__about-data {
+    width: 300px;
+    
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .app__about-img div {
+    width: 150px;
+    height: 150px;
+  }
+
+ 
+}
 @media screen and (min-width: 2000px) {
   .app__profile-item {
     width: 370px;
