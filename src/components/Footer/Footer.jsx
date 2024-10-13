@@ -80,7 +80,7 @@ const Footer = () => {
           variants={childSocialVariant}
           whileInView="view"
         >
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="app__flex">
+          <a href="https://www.instagram.com/_.sree.raj/" target="_blank" rel="noreferrer" className="app__flex">
             <BsInstagram />
           </a>
         </motion.div>

@@ -29,7 +29,7 @@ const SocialMedia = () => {
       </div>
       <div>
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/_.sree.raj/"
           target="_blank"
           rel="noreferrer"
           className="app__flex"
