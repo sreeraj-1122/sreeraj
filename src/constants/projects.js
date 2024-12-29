@@ -7,8 +7,18 @@ import pic13 from '../assets/food.png';
 import pic12 from '../assets/blog.png';
 import pic14 from '../assets/todo dashboard.png';
 import pic15 from '../assets/weather.png';
+import pic16 from '../assets/imagify.png';
 
 const projects = [
+    {
+        title: "Image Generator",
+        imgUrl: [pic16],
+        projectLink: "https://imagify-qdyb.onrender.com/",
+        codeLink: "https://github.com/sreeraj-1122/image-generator.git",
+        tags: ["MERN"],
+        description: "Turn text to image, in seconds."
+    },
+
     {
         title: "Food delivery app",
         imgUrl: [pic13],
@@ -41,6 +51,7 @@ const projects = [
         tags: ["MERN"],
         description: "An app to check the weather of any location."
     },
+   
     // Uncomment and add descriptions for the remaining projects as needed
     // {
     //     title: "Fitness-tracker",
@@ -74,14 +85,14 @@ const projects = [
     //     tags: ["React Js"],
     //     description: "A clone of the popular video sharing platform."
     // },
-    // {
-    //     title: "Quiz App",
-    //     imgUrl: [pic7],
-    //     projectLink: "https://sreeraj-1122.github.io/Quiz-App/",
-    //     codeLink: "https://github.com/sreeraj-1122/Quiz-App.git",
-    //     tags: ["JavaScript"],
-    //     description: "An interactive quiz application."
-    // },
+    {
+        title: "Quiz App",
+        imgUrl: [pic7],
+        projectLink: "https://sreeraj-1122.github.io/Quiz-App/",
+        codeLink: "https://github.com/sreeraj-1122/Quiz-App.git",
+        tags: ["JavaScript"],
+        description: "An interactive quiz application."
+    },
     // {
     //     title: "Calculator",
     //     imgUrl: [pic8],
