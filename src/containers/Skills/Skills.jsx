@@ -57,7 +57,14 @@ const Skills = () => {
     // Mock data for experience
     const mockExperience = [
       {
-        year: "2023",
+        year: "2025",
+        works: [
+          { name: "Software Engineer Trainee", company: "Vuelogix Technologies Pvt Ltd", desc: "Developed user interfaces." },
+          { name: "Learned Vue js ,Python,Rest APIs ", desc: "Implemented REST APIs." },
+        ],
+      },
+      {
+        year: "2024",
         works: [
           { name: "Mern Stack Developer Intern", company: "Futura Labs ,Kozhikode", desc: "Developed user interfaces." },
           { name: "Learned Full Stack", company: "Individual  ", desc: "Implemented REST APIs." },
