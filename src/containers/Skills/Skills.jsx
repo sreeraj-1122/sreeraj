@@ -59,8 +59,15 @@ const Skills = () => {
       {
         year: "2025",
         works: [
+          { name: "Junior Software Engineer", company: "Vuelogix Technologies Pvt Ltd", desc: "Developed user interfaces." },
+          { name: "Project Management ,User Interface Design ,Responsive Web Design ", desc: "Implemented REST APIs." },
+        ],
+      },
+      {
+        year: "2025",
+        works: [
           { name: "Software Engineer Trainee", company: "Vuelogix Technologies Pvt Ltd", desc: "Developed user interfaces." },
-          { name: "Learned Vue js ,Python,Rest APIs ", desc: "Implemented REST APIs." },
+          { name: "Learned Vue js ,Rest APIs ", desc: "Implemented REST APIs." },
         ],
       },
       {
