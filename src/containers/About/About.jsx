@@ -8,7 +8,8 @@ import developerProfile from "../../constants/developerProfile";
 
 const About = () => {
   const [aboutMe, setAboutMe] = useState({
-    resumeUrl: "https://drive.google.com/file/d/1U3qSdHMdpzauqX2Y8yI27FY3unEuWzdu/view?usp=drive_link", 
+    resumeUrl:
+      "https://drive.google.com/file/d/169ChEErYzxKhMx6Rz9yrmKZmGIGTeig2/view?usp=sharing",
   });
 
   const viewResumeHandler = () => {
